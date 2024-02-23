@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TestShader_MAT
-  m_Shader: {fileID: -6465566751694194690, guid: 96ce64a72086ba9499bf51618c7dc721,
+  m_Name: Dissolve_MAT
+  m_Shader: {fileID: -6465566751694194690, guid: 01cc300b7fec3b749b646cabaaa258f9,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -93,40 +93,38 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _DissolveTime: -0.07
     - _DstBlend: 0
     - _DstBlendAlpha: 0
+    - _EdgeBoldValue: 0.05
     - _EnvironmentReflections: 1
-    - _FresnelPower: 1.5
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
-    - _Mode: 0
+    - _NoiseStrength: 30
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.5
+    - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _UVSec: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0, g: 1, b: 0.6605921, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgeColor: {r: 0, g: 0.90980184, b: 5.992157, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _InlineColor: {r: 0, g: 0, b: 0, a: 0}
-    - _Inline_Color: {r: 0, g: 0, b: 0, a: 0}
-    - _OutlineColor: {r: 0, g: 1, b: 0.7787789, a: 0}
-    - _Outline_Color: {r: 0, g: 1, b: 0.7787789, a: 0}
+    - _MainColor: {r: 2, g: 1.0080007, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &3310364943388332315
+--- !u!114 &8308475191890470328
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
