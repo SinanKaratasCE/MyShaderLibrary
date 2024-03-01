@@ -71,7 +71,20 @@
         }
     ],
     "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "346d971d22704d22875f5af872bc481f"
+        },
+        {
+            "m_Id": "df947539b49a4d9c9d47333d5a5d5f25"
+        },
+        {
+            "m_Id": "1883c279eba54c86b687e024db4e439c"
+        },
+        {
+            "m_Id": "920fd811c7e840e88bd9701147bc2f94"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -261,8 +274,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 200.0
+            "x": 0.000016689300537109375,
+            "y": 201.00001525878907
         },
         "m_Blocks": [
             {
@@ -436,6 +449,26 @@
         "z": 0.0
     },
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "1883c279eba54c86b687e024db4e439c",
+    "m_Title": "Alpha ",
+    "m_Content": "The reason why we change alpha value is catch a smoother view for outline \n",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": 12.800000190734864,
+        "y": 344.0,
+        "width": 200.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -651,6 +684,26 @@
         "e31": 0.0,
         "e32": 0.0,
         "e33": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "346d971d22704d22875f5af872bc481f",
+    "m_Title": "Outline Effect",
+    "m_Content": "We get the object material position and set them scale to bigger than it was thus material scale can be more big and we gain outline effect",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1664.800048828125,
+        "y": -302.3999938964844,
+        "width": 200.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
@@ -1253,6 +1306,26 @@
 }
 
 {
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "920fd811c7e840e88bd9701147bc2f94",
+    "m_Title": "Render Face",
+    "m_Content": "We have to set render face value to back otherwise the object's material stay front of the object and we don't want to happen",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": 233.60000610351563,
+        "y": 212.8000030517578,
+        "width": 200.0,
+        "height": 99.99998474121094
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.PositionNode",
     "m_ObjectId": "92c5b76b24384ca0bdc37f7fb56536b8",
@@ -1678,10 +1751,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1358.4000244140625,
-            "y": 498.4000244140625,
-            "width": 110.4000244140625,
-            "height": 33.5999755859375
+            "x": -1340.800048828125,
+            "y": 501.5999755859375,
+            "width": 111.199951171875,
+            "height": 33.60003662109375
         }
     },
     "m_Slots": [
@@ -1725,6 +1798,26 @@
         "w": 0.0
     },
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "df947539b49a4d9c9d47333d5a5d5f25",
+    "m_Title": "Split",
+    "m_Content": "The reason why we split its material position is when object scaled one way that way looks like quite weird because of that we set object's scale what coordinate is looking weird ",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -709.0,
+        "y": -136.0,
+        "width": 200.0,
+        "height": 113.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {

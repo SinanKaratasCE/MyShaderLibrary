@@ -113,7 +113,35 @@
         }
     ],
     "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "20238b3f898a4721b454b5eaa63b7628"
+        },
+        {
+            "m_Id": "a6699f7dc3c84134bed833f6322c4b21"
+        },
+        {
+            "m_Id": "1292f48e715d4879bc56ba2096ed2254"
+        },
+        {
+            "m_Id": "1efafd87b5164ecb89c6d7150bdcc390"
+        },
+        {
+            "m_Id": "7be91b52434343ce9bba76437b724e70"
+        },
+        {
+            "m_Id": "ace68ea9724947ef9d4165bbdb0f6260"
+        },
+        {
+            "m_Id": "c5179e6c3fa643948bb79899eac1d6ac"
+        },
+        {
+            "m_Id": "f1a6253a66574ce988218da993efee66"
+        },
+        {
+            "m_Id": "49726f204acf463ebc76fcd04cf31e78"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -569,6 +597,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "1292f48e715d4879bc56ba2096ed2254",
+    "m_Title": "Adding Color",
+    "m_Content": "Add color for what we want noise to look like",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -300.0,
+        "y": 542.0,
+        "width": 200.0,
+        "height": 59.99997329711914
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "1475cf0c21fa4b16bee5f6ff48a4d83d",
     "m_Id": 0,
@@ -744,6 +792,46 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.Emission"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "1efafd87b5164ecb89c6d7150bdcc390",
+    "m_Title": "Voronoi",
+    "m_Content": "Voronoi looks like a cell and is convineant for waving effect. We add time to voronoi angle offset for changing voronoi angle, noises' offset is used ",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1004.0,
+        "y": 634.0,
+        "width": 200.0,
+        "height": 60.000152587890628
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "20238b3f898a4721b454b5eaa63b7628",
+    "m_Title": "Time",
+    "m_Content": "We multiply time for giving movement to noise and create a variable for changing noise movement speed in the future",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1730.0,
+        "y": 400.0,
+        "width": 200.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -1187,6 +1275,26 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "49726f204acf463ebc76fcd04cf31e78",
+    "m_Title": "Object Position",
+    "m_Content": "Adding a Position to the noisy normal vector allows the object to be manipulated. In addition to adding position to the noisy normal vector provides to object that gains motion between its vertex positions",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -528.0,
+        "y": -734.4000244140625,
+        "width": 200.0,
+        "height": 126.4000244140625
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -1693,6 +1801,26 @@
     "m_Value": 5.0,
     "m_DefaultValue": 5.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "7be91b52434343ce9bba76437b724e70",
+    "m_Title": "Vertex Position",
+    "m_Content": "Vertex position is effective for changing objects vertexes' position that owns this shaders material",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": 251.0,
+        "y": -73.0,
+        "width": 200.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -2215,6 +2343,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "a6699f7dc3c84134bed833f6322c4b21",
+    "m_Title": "Power",
+    "m_Content": "We connect the noise node to power for increase noise texture intensity",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -582.0,
+        "y": 589.0,
+        "width": 200.0,
+        "height": 73.0001449584961
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "a73b11a0d9844f05939eaf58eed5dd17",
     "m_Id": 0,
@@ -2299,6 +2447,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "ace68ea9724947ef9d4165bbdb0f6260",
+    "m_Title": "Normal Vector",
+    "m_Content": "It gives us to object's normal vector which owns this shaders material",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1276.0,
+        "y": -726.0,
+        "width": 200.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "ad06a4cf1a6543258b3c894a9032c0e0",
     "m_Id": 1,
@@ -2369,10 +2537,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1522.0001220703125,
-            "y": 528.0000610351563,
+            "x": -1543.0,
+            "y": 502.0000305175781,
             "width": 138.0,
-            "height": 34.0
+            "height": 34.000030517578128
         }
     },
     "m_Slots": [
@@ -2659,6 +2827,26 @@
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "c5179e6c3fa643948bb79899eac1d6ac",
+    "m_Title": "Time",
+    "m_Content": "We multiply time for giving movement to noise and create a variable for changing noise movement speed in the future",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -2079.0,
+        "y": -326.0,
+        "width": 200.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
@@ -2965,6 +3153,26 @@
     "m_RangeValues": {
         "x": 0.0,
         "y": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "f1a6253a66574ce988218da993efee66",
+    "m_Title": "Multiplied Noise Vector",
+    "m_Content": "When we multiplied Normal Vector and noise it changes Normal Vector's noise ",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -916.0,
+        "y": -94.4000015258789,
+        "width": 269.5999755859375,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
